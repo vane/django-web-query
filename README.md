@@ -32,7 +32,7 @@ http://127.0.0.1:8000/api/v1/Test/?data=[{"order_by":"-date"},{"filter":{"name_i
 
 http://127.0.0.1:8000/api/v1/Test/?data=[{"order_by":"-date"},{"limit":{"end":9}}]
 
-http://127.0.0.1:8000/api/v1/Test/?data=[{"order_by":"-date"},{"filter":{"symbol":11}},{"limit":{"end":9}}]
+http://127.0.0.1:8000/api/v1/Test/?data=[{"order_by":"-date"},{"filter":{"id":11}},{"limit":{"end":9}}]
 </pre>
 so as you see it's passing the json
 
