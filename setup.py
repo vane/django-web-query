@@ -1,6 +1,6 @@
 from setuptools import setup
 
-import braces
+import djangowebquery
 
 setup(
     name="django-web-query",

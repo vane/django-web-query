@@ -8,6 +8,7 @@ Response now only in json format
 Simply put this in your urls.py where models is your application models:
 
 <pre>
+from mysite import models
 from djangowebquery import api
 
 api.Api.registry.quick_register('/api/v1/', models)
